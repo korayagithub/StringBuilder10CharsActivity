@@ -23,19 +23,19 @@ public class Main
             System.out.println("5. The characters from index 3 to 6 are " + strArgument1.substring(3,7) + ".");
 
             strArgument1.append("123");
-            System.out.println("6. Append \"abc\" at the end: " +  strArgument1 + ".");
+            //System.out.println("6. Append \"abc\" at the end: " +  strArgument1 + ".");
 
             strArgument1.insert(4, "xyz");
-            System.out.println("7. Insert \"xyz\" at index 4: " +  strArgument1 + ".");
+            //System.out.println("7. Insert \"xyz\" at index 4: " +  strArgument1 + ".");
 
             strArgument1.delete(2,5);
-            System.out.println("8. Delete index 2 to 4: " +  strArgument1 + ".");
+            //System.out.println("8. Delete index 2 to 4: " +  strArgument1 + ".");
 
             strArgument1.deleteCharAt(8);
-            System.out.println("9. Delete character at index 8: " + strArgument1 + ".");
+            //System.out.println("9. Delete character at index 8: " + strArgument1 + ".");
 
             strArgument1.reverse();
-            System.out.println("10. Reverse the string and print it: " + strArgument1 +".");
+            System.out.println("6. Reverse the string and print it: " + strArgument1 +".");
         }
     }
 }
